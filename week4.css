@@ -1,0 +1,178 @@
+* { box-sizing: border-box; }
+
+body{
+  margin: 0;
+  background-image: url("images/bg.jpg"); 
+  background-repeat: repeat;
+  font-family: Verdana, sans-serif
+  font-family: Verdana, sans-serif;
+  line-height: 1.55;
+  background: #f4f5f7;
+}
+
+#container{
+  width: 980px;
+  margin: 0 auto;
+  background: #fff;
+}
+
+header{
+  padding: 22px 25px;
+  border-bottom: 1px solid #e6e6e6;
+  background: #ffffff;
+}
+
+.brand{
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+#logo{
+  width: 86px;
+  height: 86px;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+h1{
+  margin: 0;
+  font-size: 1.9rem;
+  letter-spacing: 0.3px;
+}
+
+.tagline{
+  margin: 4px 0 0;
+  color: #666;
+  font-size: 0.95rem;
+}
+
+/* Nav */
+nav{
+  padding: 10px 25px;
+  border-bottom: 1px solid #eee;
+  background: #fafafa;
+}
+
+nav a{
+  text-decoration: none;
+  color: #222;
+  margin-right: 18px;
+  font-weight: 600;
+}
+
+nav a:hover{
+  text-decoration: underline;
+}
+
+/* Layout */
+#layout{
+  display: flex;
+  gap: 22px;
+  padding: 25px;
+}
+
+/* Sidebar */
+#sidebar{
+  width: 250px;
+}
+
+#sidebar h2{
+  margin-top: 0;
+  font-size: 1.15rem;
+}
+
+.links{
+  list-style: none;
+  padding: 0;
+  margin: 0 0 16px;
+}
+
+.links li{
+  margin: 8px 0;
+}
+
+.links a{
+  color: #1a4fb3;
+  text-decoration: none;
+}
+
+.links a:hover{
+  text-decoration: underline;
+}
+
+.card{
+  background: #f7f8fb;
+  border: 1px solid #e7e8ee;
+  border-radius: 12px;
+  padding: 14px;
+  margin: 14px 0;
+}
+
+.card h3{
+  margin: 0 0 8px;
+  font-size: 1.05rem;
+}
+
+/* Content */
+#content{
+  flex: 1;
+  min-width: 0;
+}
+
+#content h2{
+  margin-top: 0;
+}
+
+.lead{
+  color: #444;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+  margin: 12px 0 18px;
+}
+
+.panel{
+  background: #ffffff;
+  border: 1px solid #eee;
+  border-radius: 12px;
+  padding: 14px;
+}
+
+
+blockquote{
+  margin: 18px 0 0;
+  padding: 12px 14px;
+  border-left: 4px solid #1a4fb3;
+  background: #f2f6ff;
+  border-radius: 10px;
+}
+
+footer{
+  padding: 14px 25px;
+  border-top: 1px solid #eee;
+  color: #666;
+  background: #fafafa;
+}
+/* 顶部横幅图 */
+.hero-img{
+  width: 100%;
+  height: 360px;      /* 你想短一点就改小：200/180都行 */
+  object-fit: cover;
+  display: block;
+    margin: 0;
+  border-radius: 0;
+}
+
+/* 正文配图 */
+.content-img{
+  width: 85%;         /* 想更宽就 90% / 100% */
+  max-width: 180px;
+  object-fit: cover;  /* 自动裁剪，不会变形 */
+  display: block;
+  margin: 12px 0;     /* 上下留点气 */
+  border-radius: 10px;
+}
